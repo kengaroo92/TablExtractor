@@ -1,0 +1,26 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="container d-flex flex-column align-items-center justify-content-center vh-100">
+    <h1 class="mb-4">TablExtractor</h1>
+    <p>Welcome to TablExtractor, a tool for extracting tables from PDF files.</p>
+    <p>Upload a PDF file and we'll extract its tables for you.</p>
+
+    <form asp-page-handler="Upload" method="post" enctype="multipart/form-data" class="mb-5">
+        <div class="form-group">
+            <label for="pdfFile">Select a PDF file:</label>
+            <input type="file" class="form-control-file" id="pdfFile" name="pdfFile" accept=".pdf" required>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Extract Tables</button>
+    </form>
+
+    @if (!string.IsNullOrEmpty(Model.StatusMessage))
+    {
+        <div class="alert alert-info w-50">
+            @Model.StatusMessage
+        </div>
+    }
+</div>

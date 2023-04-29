@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TablExtractor", "TablExtractor.csproj", "{7A374AA2-0EB1-41A6-847D-42CA4022D59D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A374AA2-0EB1-41A6-847D-42CA4022D59D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A374AA2-0EB1-41A6-847D-42CA4022D59D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A374AA2-0EB1-41A6-847D-42CA4022D59D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A374AA2-0EB1-41A6-847D-42CA4022D59D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCA1E6B0-98D9-46B1-850A-191DBD675F9D}
+	EndGlobalSection
+EndGlobal
